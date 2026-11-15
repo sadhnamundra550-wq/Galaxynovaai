@@ -22,7 +22,7 @@ BASE_DIR = Path(__file__).resolve().parent
 # Load .env from the same folder as this file
 load_dotenv(BASE_DIR / ".env")
 
-MODEL = os.getenv("GEMINI_MODEL", "gemini-3.8-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 
 DATABASE_FILE = BASE_DIR / "training_data.json"
 
