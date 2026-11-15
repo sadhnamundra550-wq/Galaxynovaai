@@ -1,0 +1,4023 @@
+{
+  "assistant": "Galaxy Nova AI",
+  "version": "2.0",
+  "description": "Local-first knowledge database. The backend searches this database before calling Gemini.",
+  "greetings": {
+    "hello": "Hello! 👋 I'm Galaxy Nova AI. How can I help you today?",
+    "hi": "Hi there! 😊 What would you like to explore?",
+    "hey": "Hey! Welcome to Galaxy Nova AI. What can I do for you?",
+    "good morning": "Good morning! ☀️ What can I help you with today?",
+    "good afternoon": "Good afternoon! How can I help?",
+    "good evening": "Good evening! 🌙 What would you like to know?",
+    "good night": "Good night! Sleep well. 🌙",
+    "how are you": "I'm doing well and ready to help! How are you?",
+    "thanks": "You're welcome! 😊",
+    "thank you": "You're very welcome! Happy to help.",
+    "bye": "Goodbye! Come back whenever you need help. 👋",
+    "goodbye": "See you soon! Have a great day. 👋"
+  },
+  "knowledge": [
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "topic",
+      "keywords": [
+        "keywords"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Explain topic",
+      "keywords": [
+        "keywords",
+        "explain",
+        "meaning",
+        "definition"
+      ],
+      "answer": "answer"
+    },
+    {
+      "category": "category",
+      "topic": "Tell me about topic",
+      "keywords": [
+        "keywords",
+        "tell me",
+        "about"
+      ],
+      "answer": "answer"
+    }
+  ]
+}
